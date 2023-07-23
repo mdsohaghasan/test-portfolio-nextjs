@@ -5,17 +5,16 @@ import Contact from "@/components/Contact/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./globals.css";
-import Link from "next/link";
 
 // import './css/style.min.css'
 // import './css/textRotate.css'
 // import './css/select2.min.css'
 // import './css/slick.css'
 // import './css/jQueryUi.min.css'
-
-// import "./js/main";
-// import "./js/wow.min";
-// import "./js/lightgallery.min";
+import "./js/main";
+import "./js/wow.min";
+import "./js/lightgallery.min";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,14 +28,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      {/* <Link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <Link rel="preconnect" href="https://fonts.googleapis.com"/>
       <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
       <Link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet"/>
       <Link href="./fonts/grader-unique-sans-2023-07-13-05-06-32-utc/GraderTTF.ttf" rel="stylesheet"/>
 
       <Link rel="preconnect" href="https://fonts.googleapis.com"/>
       <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-      <Link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"/> */}
+      <Link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"/>
 
       </head>
 
